@@ -1,5 +1,5 @@
 # PROJECT NAME
-Rate-It-Out-Of-Ten
+Rates
 
 # AUTHOR
 Collins Kiprutoh
@@ -28,9 +28,9 @@ Users can view their profile page with all their published projects.
 Users can rate and review other users' projects.
 
 # SETUP/INSTALLATION.
-*** To view the app.Visit -> Rate-It-Out-Of-Ten
+*** To view the app.Visit -> Rates
 
-Clone this repo: git clone https://github.com/wizzicollo/Rate-It-Out-Of-Ten.
+Clone this repo: git clone https://github.com/wizzicollo/Rates.
 
 The repo comes in a zipped or compressed format. Extract to your prefered location and open it.
 
@@ -53,25 +53,25 @@ python manage.py runserver
 Use the navigation bar/navbar/navigation pane/menu to navigate and explore the app.
 
 # Technologies Used
-Python 3.6
-Django
-Postgresql
-Bootstrap4
+ - Python 3.6
+ - Django
+ - Postgresql
+ - Bootstrap4
 
 # APIs
 This application comes with two API Endpoints for Profiles and Projects.
 
-Profiles API Endpoint - https://rateitoutoften.herokuapp.com/api/profiles/
+- Profiles API Endpoint - https://rateitoutoften.herokuapp.com/api/profiles/
 
-Projects API Endpoint - https://rateitoutoften.herokuapp.com/api/projects/
+- Projects API Endpoint - https://rateitoutoften.herokuapp.com/api/projects/
 
 
 # Known Bugs
 There are no known bugs
 
 # Contact Information
-Email:[kiprutohcollo@gmail.com]
-Phone No. : 0741280908
+ - Email:[kiprutohcollo@gmail.com]
+ -Phone No. : 0741280908
 
 # live link
 

@@ -12,27 +12,7 @@
           <a class="nav-link" href="{%url 'index'%}">Home <span class="sr-only">(current)</span></a>
         </li>
 
-<!--Navbar-->
-<!-- <nav class="pl-5 pr-5 navbar navbar-expand-lg navbar-light bg-light sticky-top"> -->
 
-    <!-- Navbar brand -->
-    <!-- <a class="navbar-brand font-weight-bold title" href="{% url 'index' %}"style="font-size: 30px; font-weight:bold">AWWARDS</a> -->
-  
-    <!-- Collapse button -->
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-  
-    <!-- Collapsible content -->
-    <!-- <div class="collapse navbar-collapse" id="basicExampleNav"> -->
-      <!-- Links -->
-      <!-- <ul class="navbar-nav mr-auto">
-          <li class="text-white nav-item">
-            <a class="nav-link" href="{% url 'index' %}" style="font-size: 30px; font-weight:bold">Home</a>
-          </li>
-          
-        </li> -->
         {% if user.is_authenticated %}
         
         {% endif %}
@@ -72,10 +52,7 @@
                 </li>
               </ul>
               {% else %}
-              <!-- <li class="list-unstyled">
-                  <a class='btn btn-sm btn-default font-weight-bold' href="/accounts/login" style="font-size: 15px;">Login</a>
-                  <a class='btn btn-sm btn-default font-weight-bold' href="/accounts/register"style="font-size: 15px;">Register</a>
-              </li> -->
+            
              
           <li class="nav-item active">
             <a  href="/accounts/register" style="font-size: 15px;" class=""></a>
